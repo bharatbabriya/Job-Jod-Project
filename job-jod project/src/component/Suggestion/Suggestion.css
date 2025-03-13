@@ -1,0 +1,90 @@
+.suggestion-group {
+  margin-top: 20px;
+}
+.suggestion-title {
+  font-size: 14px;
+}
+.suggestion-title p {
+  margin: 0px;
+  padding-top: 7px;
+}
+.suggestion-list ul li a{
+  color: white;
+}
+.suggestion-list ul li a:hover{
+  color: #4354a2;
+}
+.suggestion-list ul li a:active{
+  color: #4354a2;
+}
+.suggestion-list ul li {
+  list-style: none;
+  color: white;
+  margin: 0px 5px;
+  padding: 5px 10px;
+  background-color: #4355a2;
+  border-radius: 50px;
+}
+.suggestion-group .suggestion-list .icon {
+  font-size: 15px;
+}
+.suggestion-list ul li:hover {
+  background-color: #bdc6ef;
+  color: #4354a2;
+  border-radius: 50px;
+  font-weight: 500;
+}
+/* .suggestion-list ul li:active {
+  background-color: #bdc6ef;
+  color: #4354a2;
+  border-radius: 50px; 
+} */
+.suggestion-list ul li:active {
+  background-color: #bdc6ef;
+  color: #4354a2;
+  border-radius: 50px;
+}
+/* .suggestion-list .bottom {
+  position: absolute;
+  width: 60px;
+  height:3px;
+  background-color: #4354a2;
+  top: 35.6%;
+  left:35.6%;
+  border-radius: 5px;
+  transition: 0.5s;
+} */
+.suggestion-list ul li:nth-child(1):hover ~ .bottom {
+  left: 26.5%;
+}
+.suggestion-list ul li:nth-child(3):hover ~ .bottom {
+  left: 42.2%;
+}
+.suggestion-list ul li:nth-child(4):hover ~ .bottom {
+  left: 48.6%;
+}
+.suggestion-list ul li:nth-child(5):hover ~ .bottom {
+  left: 57.8%;
+}
+.suggestion-list ul li:nth-child(6):hover ~ .bottom {
+  left: 66.8%;
+}
+@media (max-width: 1199px) {
+  .suggestion-list ul li {
+    padding: 0px 0px;
+    white-space: nowrap;
+    flex: wrap;
+  }
+}
+@media (max-width: 991px) {
+  .suggestion-list ul li {
+    padding: 0px 0px;
+    white-space: nowrap;
+    flex: wrap;
+  }
+}
+@media (max-width: 575px) {
+  .suggestion-list ul li {
+    flex-wrap: wrap;
+  }
+}

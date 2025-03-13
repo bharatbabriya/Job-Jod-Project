@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+  .companies{
+    display: block;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 575px) {
+  .companies{
+    display: block;
+    flex-wrap: wrap;
+  } 
+}

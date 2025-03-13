@@ -1,0 +1,27 @@
+.alljob-title .button button {
+  background-color: #4354a2;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+}
+.alljob-title .button .icon {
+  color: white;
+  width: 30px;
+  padding-right: 10px;
+}
+@media (max-width: 767px) {
+  .filter-data {
+    display: none;
+    overflow: hidden;
+  }
+}
+@media (max-width: 575px) {
+  .table{
+    width: auto;
+  }
+  .filter-data {
+    display: none;
+    overflow: hidden;
+  }
+}

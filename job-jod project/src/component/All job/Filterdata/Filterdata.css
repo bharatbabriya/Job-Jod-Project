@@ -1,0 +1,33 @@
+.filter-data{
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+}
+.filter-data .date input{
+  border: 1px solid #555555;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #dcdcdc;
+  opacity: 50px;
+}
+@media (max-width: 1920px) {
+  .filter-data .date input{
+    width: 100% ;
+    padding: 5px 5px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}
+@media (max-width: 1440px){
+  .filter-data .date input{
+    font-size: 15px;
+    padding: 5px 5px 5px 10px
+  }
+}
+@media (max-width: 1199px){
+  .filter-data .date input{
+    font-size: 15px;
+    padding: 5px 5px 5px 5px
+  }
+}

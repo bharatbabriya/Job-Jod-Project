@@ -1,0 +1,21 @@
+.search{
+  border: none;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.search span{
+  color: #b6b6b6;
+}
+.button button{
+  background-color: #4354a2;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 3px 15px;
+
+}
+/* .search .icon{
+  font-size: 20px;
+
+} */

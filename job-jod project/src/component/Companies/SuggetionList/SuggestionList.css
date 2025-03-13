@@ -1,0 +1,74 @@
+.suggestionlist-item {
+  background-color: white;
+  padding: 20px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 6px;
+}
+.suggestionlist-group .suggestionlist-item .service {
+  color: #b6b6b6;
+}
+.suggestionlist-item .image .avatar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.suggestionlist-group .suggestionlist-item .title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.suggestionlist-group .suggestionlist-item .service {
+  font-size: 14px;
+  font-weight: 500;
+
+}
+@media (max-width : 1920px) {
+  .suggestionlist-group{
+   white-space: nowrap;
+  }
+  .suggestionlist-item{
+   padding: 20px;
+   margin: 20px;
+  }
+ }
+@media (max-width : 1440px) {
+ .suggestionlist-group{
+  white-space: nowrap;  
+ }
+ .suggestionlist-item{
+  padding: 20px;
+  margin: 20px;
+ }
+}
+@media (max-width : 1199px) {
+  .suggestionlist-item{
+    padding: 20px;
+    margin: 20px; 
+  }
+  .suggestionlist-item .image .avatar{
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width : 991px) {
+  .suggestionlist-item{
+    padding: 10px;
+    margin: 16px;
+  }
+  .suggestionlist-item .image .avatar{
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width : 767px) {
+  .suggestionlist-item{
+    padding: 30px;
+    margin: 20px;
+  }
+  .suggestionlist-item .image .avatar{
+    width: 80px;
+    height: 80px;
+  }
+}
+

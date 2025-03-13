@@ -1,0 +1,97 @@
+.datalist-item {
+  background-color: white;
+  margin-left: 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.datalist-item .image .avatar {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.about-1 .avatar {
+  width: 35px;
+  height: 35px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+.datalist-item .service{
+  color: #B6B6B6;
+}
+.about-1 {
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+.follow button {
+  margin: 20px 0px;
+  border: 1px solid #4355A2;
+  border-radius: 50px;
+  width: 100%;
+  padding: 8px 0px;
+  color: #4355A2;
+  background-color: white;
+}
+.follow button:hover{
+  background-color:#4355A2;
+  color: white;
+}
+.about-1 .employ .profile {
+  background-color: #4355A2;
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin-top: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.about-1 .review .profile{
+  background-color: #ffbb18;
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin-top: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.about-1 .location .profile{
+  background-color: #ebebeb;
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin-top: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.about-2 .about-contant p {
+  font-size: 14px;
+  color: #B6B6B6;
+}
+.about-2 .about-title h5 {
+  font-weight: 700;
+}
+.about-1 p {
+  font-weight: 700;
+  font-size: 18px;
+}
+.about-1 span {
+  font-size: 12px;
+  font-weight: 500;
+}
+.service{
+  font-size: 14px;
+  font-weight: 500;
+}
+.title{
+  font-size: 18px;
+  font-weight: 700;
+}
+@media (max-width:1199px) {
+  .about-1 .review{
+    margin-top: 10px  ;
+  }
+}
+@media (max-width:991px) {
+    .about-1 span:nth-child(1){
+      font-size: 10px;
+    }
+}
